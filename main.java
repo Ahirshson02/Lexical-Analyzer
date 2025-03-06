@@ -1,3 +1,4 @@
+import static java.lang.System.exit;
 import java.util.Scanner;
 
 public class main {
@@ -10,12 +11,13 @@ public class main {
         System.out.print("Enter your name: ");
         
         // Read user input
-        String name = scanner.nextLine();
+        System.out.println("Tacps");
 
-        // Greet the user
-        System.out.println("Hello, " + name + "! Welcome to Java.");
-
-        // Close the scanner
-        scanner.close();
+        if(4 <5){
+            System.out.println("cowabunga");
+        }
+        else{
+            exit(0);
+        }
     }
 }
