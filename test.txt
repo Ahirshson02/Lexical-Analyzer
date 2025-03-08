@@ -1,0 +1,23 @@
+Symbol Table:
+--------------
+Lexeme        | Token
+-------------|--------------
+x            | IDENTIFIER
+y            | IDENTIFIER
+addNumbers   | FUNCTION
+result       | IDENTIFIER
+int          | KEYWORD
+float        | KEYWORD
+double       | KEYWORD
+return       | KEYWORD
+main         | FUNCTION
+(            | LEFT_PAREN
+)            | RIGHT_PAREN
+{            | LEFT_BRACE
+}            | RIGHT_BRACE
+=            | ASSIGN_OP
++            | ADD_OP
+-            | SUB_OP
+*            | MUL_OP
+/            | DIV_OP
+;            | SEMICOLON
